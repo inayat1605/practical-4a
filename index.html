@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Foodies</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#foods">Foods</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to the Foodies Webpage</h1>
+            <p>Explore the world of culinary delights.</p>
+            <a href="#foods" class="hero-button">Explore Foods</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Foodies, your go-to destination for discovering delicious and diverse dishes from around the world. We celebrate the art of food and share the stories behind every dish.</p>
+    </section>
+
+    <!-- Grid Layout Section (Foods) -->
+    <section class="grid-layout" id="foods">
+        <div class="grid-item">
+            <img src="paradise pie.png" alt="Brownie" class="food-image">
+            <h2>Brownie</h2>
+            <p>A chocolate brownie is a square or rectangular chocolate baked confection. Brownies come in a variety of forms and may be either fudgy or cakey, depending on their density.</p>
+            <a href="https://en.wikipedia.org/wiki/Chocolate_brownie" class="food-link" target="_blank">Learn More</a>
+        </div>
+        <div class="grid-item">
+            <img src="pasta.png" alt="Pasta" class="food-image">
+            <h2>Pasta</h2>
+            <p>Pasta is a traditional Italian cuisine made from unleavened dough of wheat flour mixed with water or eggs, formed into sheets or shapes, and cooked by boiling or baking.</p>
+            <a href="https://en.wikipedia.org/wiki/Pasta" class="food-link" target="_blank">Learn More</a>
+        </div>
+        <div class="grid-item">
+            <img src="momos.png" alt="Momos" class="food-image">
+            <h2>Momos</h2>
+            <p>Momos are a type of steamed dumpling popular in Nepal, Tibet, and parts of India, often filled with meat or vegetables.</p>
+            <a href="https://en.wikipedia.org/wiki/Momo_(food)" class="food-link" target="_blank">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to get in touch with us, please use the contact form below or email us at <a  href="mailto:xyzfoodie@example.com">xyzfoodie@example.com</a>.</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Food Enthusiast. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
